@@ -20,7 +20,7 @@ export const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { href: '/', label: 'Home' },
+    { href: '/products', label: 'Home' },
     { href: '/products', label: 'Shop' },
     { href: '/cart', label: 'Cart' },
   ];
@@ -38,7 +38,7 @@ export const Navbar = () => {
           <Link href="/" className="group relative">
             <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-300"></div>
             <span className="relative text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-              LuxeStore
+              Amity Store
             </span>
           </Link>
 
